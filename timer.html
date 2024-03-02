@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="timer.css">
+    <title>Timer</title>
+
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Digital-7&display=swap');
+         body {
+        font-family: 'Digital-7', sans-serif; /* Use the defined font-family for the entire page or specific elements */
+    }
+    </style>
+
+</head>
+<body>
+
+    <div id="imp">
+
+        <div class="first">
+            <span id="num2">00</span>
+            <span id="colo1"> : </span>
+            <span id="num1">00</span>
+            <span id="colo"> : </span>
+            <span id="num" "> 00</h2>
+        </div>
+
+        <div class="second">
+            <button id="startButton" onclick="Starting()">Start</button>
+            <button id="resetButton" onclick="too()">Reset</button>
+            <button id="flagButton" onclick="flagFn()" >Flag</button> 
+        </div>
+
+        <div class="table-div">
+            <table class="table">
+                <tbody class="tbod">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./timer.js" />
+</body>
+</html>

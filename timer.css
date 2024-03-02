@@ -1,0 +1,103 @@
+body{
+    /* background-color: darkgray; */
+    /* background-image:time.png;
+    back */
+    /* background: url(time.png); */
+    background-image: url("https://images.unsplash.com/photo-1594560562525-c691e827ca01?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -900px;
+    background-blend-mode: darken;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+#imp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    margin-top: 150px;
+    border-radius: 30px;
+}
+
+#num2 {
+    font-family: 'Orbitron', sans-serif;   
+    font-size: 8rem;
+}
+
+#num1 {
+    font-family: 'Orbitron', sans-serif;   
+    font-size: 8rem;
+}
+
+#num {
+    font-family: 'Orbitron', sans-serif;   
+    font-size: 8rem;
+}
+
+#colo1 {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Orbitron', sans-serif;   
+    font-size: 8rem;
+}
+
+#colo {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Orbitron', sans-serif;   
+    font-size: 8rem;
+}
+
+.second {
+    font-size: 3rem;
+    margin-top: 20px;
+    
+}
+
+ #resetButton {
+    font-size: 25px;   
+     border-radius: 5px;
+    background-image: linear-gradient(to right, #00C9FF, #92FE9D);
+
+ }
+
+ #startButton {
+    font-size: 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #00C9FF, #92FE9D);
+
+ }
+
+ #flagButton {
+    font-size: 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #00C9FF, #92FE9D);
+
+ }
+
+ .table-div {
+    overflow-y: scroll;
+    max-width: 300px;
+    max-height: 200px;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    padding-left: 10px;
+ }
+
+ .table-div::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+ .table {
+    font-size: 25px;
+    font-family:'Orbitron', sans-serif;
+    
+ }
+
