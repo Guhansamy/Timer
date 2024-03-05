@@ -33,7 +33,7 @@ function inc() {
 }
 
 function sto() {
-    clearInterval(vv);  
+    clearInterval(vv);
 }
 
 function too() {
@@ -42,7 +42,7 @@ function too() {
     tt1.innerText = k.toString().padStart(2, "0");
     tt2.innerText = k.toString().padStart(2, "0");
 
-    var tbody = document.querySelector('.tbod');
+    var tbody = document.querySelector(".tbod");
 
     while (tbody.firstChild) {
         tbody.removeChild(tbody.firstChild);
@@ -80,6 +80,7 @@ var tr, td;
 function flagFn() {
     tr = document.createElement("tr");
     td = document.createElement("td");
+    td1 = document.createElement("hr");
 
     td.innerHTML = getCurrentTime();
     tr.appendChild(td);
